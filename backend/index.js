@@ -26,7 +26,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Scholarship Management System API');
+  res.send(' Welcome to Scholarship Management System API');
 });
 
 
